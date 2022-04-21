@@ -17,5 +17,5 @@ Creating new emloyee
 
 List of all expenses
 
-![image](https://user-images.githubusercontent.com/104142686/164458933-55a047a5-f13f-44ab-b1ff-9980d6862d28.png)
+![image](https://user-images.githubusercontent.com/104142686/164460457-6eb8251b-52cd-41ad-bcdc-bafcddab4802.png)
 
