@@ -1,6 +1,6 @@
 Software for managing expenses of a company in Java EE
 
-Application was made by me for my final exam.
+Application was made for final exam on a faculty.
 Application alows managing people in the company and also alows employers to manage their expenses which are made with the company money.
 
 It is actually Java EE application which is made using JavaServerPages and Java Servlets, also EJB's are used to connect with the database. Also Bootstrap was used in the project.
