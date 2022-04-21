@@ -1,3 +1,5 @@
+Software for managing expenses of a company in Java EE
+
 Application was made by me for my final exam.
 Application alows managing people in the company and also alows employers to manage their expenses which are made with the company money.
 
