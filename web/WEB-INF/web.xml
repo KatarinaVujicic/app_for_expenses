@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>server.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PretragaZaposlenih</servlet-name>
+        <servlet-class>server.PretragaZaposlenihServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ObrisiZaposlenogServlet</servlet-name>
+        <servlet-class>server.ObrisiZaposlenogServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PretragaTroskovaServlet</servlet-name>
+        <servlet-class>server.PretragaTroskovaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PretragaZaposlenih</servlet-name>
+        <url-pattern>/PretragaZaposlenih</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ObrisiZaposlenogServlet</servlet-name>
+        <url-pattern>/ObrisiZaposlenogServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PretragaTroskovaServlet</servlet-name>
+        <url-pattern>/PretragaTroskovaServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
